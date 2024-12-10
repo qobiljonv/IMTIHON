@@ -1,0 +1,109 @@
+@import "../css/globl.css";
+.services-contact {
+  padding-top: 7.3rem;
+  padding-bottom: 12rem;
+  background-color: var(--dark-cyan);
+  color: var(--white);
+  background-image: url("../image/bg-pattern-about-2-contact-1.svg"),
+    url("../image/bg-pattern-contact-2.svg");
+  background-repeat: no-repeat;
+  background-position: top 12.4rem left -100px, bottom right -100px;
+}
+.services-contact-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.services-contact-wrapper-title {
+  font-weight: 700;
+  font-size: 6.4rem;
+  line-height: var(--title-lh);
+}
+.services-contact-title {
+  font-weight: 700;
+  font-size: 3.2rem;
+  line-height: var(--title-lh);
+  color: rgba(246, 126, 126, 1);
+  margin-bottom: 3.2rem;
+}
+
+.services-contact-item {
+  display: flex;
+  align-items: center;
+  gap: 2.3rem;
+  margin-bottom: 0.8rem;
+}
+
+.contact-uc {
+  width: 100%;
+  max-width: 542px;
+  height: 420px;
+}
+.contact-uc-name {
+}
+.general-style {
+  background-color: var(--dark-cyan);
+  display: block;
+  border: none;
+}
+input[type="text"] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px solid red;
+  border-radius: 4px;
+  border: none;
+  border-bottom: 2px solid red;
+}
+input[type="textarea"] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 5.8rem 0;
+  box-sizing: border-box;
+  border: 2px solid red;
+  border-radius: 4px;
+  border: none;
+  border-bottom: 2px solid red;
+}
+input[type="text"]:placeholder-shown {
+  color: var(--white);
+}
+.line {
+  margin-top: 1.6rem;
+  margin-bottom: 2.4rem;
+}
+.front-line {
+  margin-top: 5.8rem;
+}
+.contact-uc-wrappe {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1rem;
+  margin-bottom: 54px;
+  width: 445px;
+  border: none;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.contact-uc-email[type="email"] {
+  border: none;
+}
+.contact-uc-email[type="email"]::placeholder {
+  color: var(--white);
+  margin-left: 1.4rem;
+}
+.contact-uc-company {
+}
+.contact-uc-title {
+}
+.contact-uc-text {
+}
+.sacondary-btn {
+}
+.btn {
+}
+.contact-uc-btn {
+}
